@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div>
-      <Section title="Please leave feedback">
+      <Section title="Please leave feedback!">
         <Feedback
           options={Object.keys({ good, neutral, bad })}
           onLeaveFeedback={handleIncreament}
